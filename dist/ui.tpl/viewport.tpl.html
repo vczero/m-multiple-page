@@ -1,0 +1,45 @@
+<!--容器样式-->
+<style type="text/css" rel="stylesheet">
+  #__app__id_viewport{min-width:320px;}
+  #__app__id_leftpanel{position:absolute;left:0;top:0;bottom:0;}
+  #__app__id_rightpanel{position:absolute;right:0;top:0;bottom:0;}
+  #__app__id_header{position:fixed;left:0;right:0;top:0;}
+  #__app__id_footer{position:fixed;left:0;right:0;bottom:0;}
+</style>
+<!--main viewport-->
+<div id="__app__id_viewport">
+  <!--Header-->
+  <div id="__app__id_header"></div>
+  <!--Content-->
+  <div id="__app__id_content"></div>
+  <!--Footer-->
+  <div id="__app__id_footer"></div>
+  <!--Left Panel-->
+  <div id="__app__id_leftpanel"></div>
+  <!--Right Panel-->
+  <div id="__app__id_rightpanel"></div>
+  <!--Dialog or ActionSheet-->
+  <div id="__app__id_action"></div>
+</div>
+
+<script type="text/javascript">
+  window._PREFIX_ID_MAIN = '#__app__id_viewport';
+  window._PREFIX_ID_CONTENT = '#__app__id_content';
+  window._PREFIX_ID_HEADER = '#__app__id_header';
+  window._PREFIX_ID_FOOTER = '#__app__id_footer';
+  window._PREFIX_ID_LEFT = '#__app__id_leftpanel';
+  window._PREFIX_ID_RIGHT = '#__app__id_rightpanel';
+  window._PREFIX_ID_ACTION = '#__app__id_action';
+</script>
+<!--公共样式-->
+<style type="text/css">
+  .fast_fl{
+    float: left;
+  }
+  .fast_fr{
+    float: right;
+  }
+  .fast_center{
+    text-align: center;
+  }
+</style>

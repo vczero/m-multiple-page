@@ -1,0 +1,1 @@
+define(["Footer_tpl","$"],function(e,n){return e});

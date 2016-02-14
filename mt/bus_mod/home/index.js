@@ -1,0 +1,2 @@
+/*TMODJS:{"version":3,"md5":"e049d8e325f4eb56901adfa1f688d1df"}*/
+define(["../template",""],function(a){return a("home/index",function(a){"use strict";var b=this,c=(b.$helpers,b.$escape),d=a.title,e=a.i,f=a.list,g="";g+='<style type="text/css"> body{ background-color: red; } </style> <h1>',g+=c(d),g+="</h1> <ul> ";for(var e=0;e<f.length;e++)g+=" <li>\u7d22\u5f15 ",g+=c(e+1),g+=" \uff1a",g+=c(f[e]),g+="</li> ";return g+=" </ul>",new String(g)})});

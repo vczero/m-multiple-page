@@ -1,0 +1,2 @@
+/*TMODJS:{"version":15,"md5":"66dfeb182bcaffa24c582cec08987cce"}*/
+define(["template",""],function(a){return a("index/list",function(a){"use strict";var b=this,c=(b.$helpers,b.$escape),d=a.title,e=a.i,f=a.list,g="";g+=" <h1>",g+=c(d),g+='</h1> <ul id="show"> ';for(var e=0;e<f.length;e++)g+=" <li>\u7d22\u5f15 ",g+=c(e+1),g+=" \uff1a",g+=c(f[e]),g+="</li> ";return g+=" </ul> ",new String(g)})});
